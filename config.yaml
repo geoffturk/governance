@@ -44,47 +44,29 @@ teams:
     members:
       - neiljthomson
       - stevenmilstein
-  - name: dtgwg-cred-spec-admins
-    maintainers:
-      - geoffturk
-    members:
-      - bmiller59
-  - name: dtgwg-cred-spec-maintainers
-    maintainers:
-      - geoffturk
-    members:
-      - albertoleon7794
-      - martipos
-  - name: dtgwg-cred-tf-admins
-    maintainers:
-      - geoffturk
-    members: []
-  - name: dtgwg-cred-tf-maintainers
-    maintainers:
-      - geoffturk
-    members:
-      - albertoleon7794
-      - bmiller59
-  - name: dtgwg-general-maintainers
-    maintainers:
-      - talltree
-    members:
-      - NickyHickman
-      - martipos
   - name: dtgwg-admins
     maintainers:
       - talltree
     members:
-      - NickyHickman
       - geoffturk
       - martipos
+      - NickyHickman
       - stormer78
-  - name: dtgwg-trust-tasks-spec-maintainers
+  - name: dtgwg-maintainers
     maintainers:
       - talltree
     members:
+      - albertoleon7794
       - bmiller59
       - geoffturk
+      - GlinzCO
+      - martipos
+      - mitchuski
+      - NickyHickman 
+      - peacekeeper
+      - sankarshanmukhopadhyay
+      - ScottJeezey
+      - stormer78
   - name: dtgwg-zkp-tf-admins
     maintainers:
       - ryjones
@@ -344,45 +326,53 @@ repositories:
   - name: dtgwg-agent-names-tf
     teams:
       dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-cred-spec
     teams:
-      dtgwg-cred-spec-admins: admin
-      dtgwg-cred-spec-maintainers: maintain
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-cred-tf
     teams:
-      dtgwg-cred-tf-admins: admin
-      dtgwg-cred-tf-maintainers: maintain
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-general
     teams:
-      dtgwg-general-maintainers: maintain
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-htx-tf
     teams:
       dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-rahp-tf
     teams:
       dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-trust-tasks-tf
     teams:
       dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-trust-tasks-spec
     teams:
-      dtgwg-trust-tasks-spec-maintainers: maintain
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-vds-tf
     teams:
       dtgwg-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-zkp-tf
     teams:
       dtgwg-admins: admin
       dtgwg-zkp-tf-admins: admin
+      dtgwg-maintainers: maintain
     visibility: public
   - name: egwg-learning-pathways
     teams:
