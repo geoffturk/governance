@@ -85,14 +85,6 @@ teams:
     members:
       - bmiller59
       - geoffturk
-  - name: dtgwg-tf-maintainers
-    maintainers:
-      - talltree
-    members:
-      - GlinzCO
-      - NickyHickman
-      - geoffturk
-      - martipos
   - name: dtgwg-zkp-tf-admins
     maintainers:
       - ryjones
@@ -369,7 +361,7 @@ repositories:
     visibility: public
   - name: dtgwg-htx-tf
     teams:
-      dtgwg-tf-maintainers: admin
+      dtgwg-admins: admin
     visibility: public
   - name: dtgwg-rahp-tf
     teams:
@@ -389,7 +381,7 @@ repositories:
     visibility: public
   - name: dtgwg-zkp-tf
     teams:
-      dtgwg-tf-maintainers: admin
+      dtgwg-admins: admin
       dtgwg-zkp-tf-admins: admin
     visibility: public
   - name: egwg-learning-pathways
