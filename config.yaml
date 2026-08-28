@@ -55,14 +55,6 @@ teams:
     members:
       - albertoleon7794
       - martipos
-  - name: dtgwg-cred-spec-triage
-    maintainers:
-      - geoffturk
-    members:
-      - albertoleon7794
-      - bmiller59
-      - martipos
-      - talltree
   - name: dtgwg-cred-tf-admins
     maintainers:
       - geoffturk
@@ -365,7 +357,6 @@ repositories:
     teams:
       dtgwg-cred-spec-admins: admin
       dtgwg-cred-spec-maintainers: maintain
-      dtgwg-cred-spec-triage: triage
     visibility: public
   - name: dtgwg-cred-tf
     teams:
