@@ -323,6 +323,11 @@ repositories:
     teams:
       ctwg: admin
     visibility: public
+  - name: dtgwg-agent-names-spec
+    teams:
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
+    visibility: public
   - name: dtgwg-agent-names-tf
     teams:
       dtgwg-admins: admin
@@ -363,9 +368,25 @@ repositories:
       dtgwg-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
+  - name: dtgwg-vds-spec
+    teams:
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
+    visibility: public
   - name: dtgwg-vds-tf
     teams:
       dtgwg-admins: admin
+      dtgwg-maintainers: maintain
+    visibility: public
+  - name: dtgwg-vti-spec
+    teams:
+      dtgwg-admins: admin
+      dtgwg-maintainers: maintain
+    visibility: public
+  - name: dtgwg-zkp-spec
+    teams:
+      dtgwg-admins: admin
+      dtgwg-zkp-tf-admins: admin
       dtgwg-maintainers: maintain
     visibility: public
   - name: dtgwg-zkp-tf
