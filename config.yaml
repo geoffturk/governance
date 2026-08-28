@@ -375,10 +375,6 @@ repositories:
     teams:
       dtgwg-maintainers: admin
     visibility: public
-  - name: dtgwg-rcards-tf
-    teams:
-      dtgwg-maintainers: admin
-    visibility: public
   - name: dtgwg-trust-tasks-tf
     teams:
       dtgwg-maintainers: admin
@@ -386,10 +382,6 @@ repositories:
   - name: dtgwg-trust-tasks-spec
     teams:
       dtgwg-trust-tasks-spec-maintainers: maintain
-    visibility: public
-  - name: dtgwg-ux-tf
-    teams:
-      dtgwg-tf-maintainers: admin
     visibility: public
   - name: dtgwg-vds-tf
     teams:
