@@ -71,7 +71,7 @@ teams:
     members:
       - NickyHickman
       - martipos
-  - name: dtgwg-maintainers
+  - name: dtgwg-admins
     maintainers:
       - talltree
     members:
@@ -351,7 +351,7 @@ repositories:
     visibility: public
   - name: dtgwg-agent-names-tf
     teams:
-      dtgwg-maintainers: admin
+      dtgwg-admins: admin
     visibility: public
   - name: dtgwg-cred-spec
     teams:
@@ -373,11 +373,11 @@ repositories:
     visibility: public
   - name: dtgwg-rahp-tf
     teams:
-      dtgwg-maintainers: admin
+      dtgwg-admins: admin
     visibility: public
   - name: dtgwg-trust-tasks-tf
     teams:
-      dtgwg-maintainers: admin
+      dtgwg-admins: admin
     visibility: public
   - name: dtgwg-trust-tasks-spec
     teams:
@@ -385,7 +385,7 @@ repositories:
     visibility: public
   - name: dtgwg-vds-tf
     teams:
-      dtgwg-maintainers: admin
+      dtgwg-admins: admin
     visibility: public
   - name: dtgwg-zkp-tf
     teams:
