@@ -44,11 +44,6 @@ teams:
     members:
       - neiljthomson
       - stevenmilstein
-  - name: dtgwg
-    maintainers:
-      - m00sey
-      - talltree
-    members: []
   - name: dtgwg-cred-spec-admins
     maintainers:
       - geoffturk
@@ -368,14 +363,12 @@ repositories:
     visibility: public
   - name: dtgwg-cred-spec
     teams:
-      dtgwg: maintain
       dtgwg-cred-spec-admins: admin
       dtgwg-cred-spec-maintainers: maintain
       dtgwg-cred-spec-triage: triage
     visibility: public
   - name: dtgwg-cred-tf
     teams:
-      dtgwg: maintain
       dtgwg-cred-tf-admins: admin
       dtgwg-cred-tf-maintainers: maintain
     visibility: public
